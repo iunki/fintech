@@ -103,6 +103,8 @@ body {
     position: relative;
 }
 .descr-block .bg{
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
     position: absolute;
     top: 0;
     right: 0;
