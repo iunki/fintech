@@ -1,0 +1,194 @@
+body {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+    /*background-color: #fff;*/
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    /*width: 1300px;*/
+    margin: 0 auto;
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+
+#main-img {
+    width: 100%;
+    height: 100vh;
+    /*background: url("img/ivan2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;*/
+    background: transparent;
+}
+#main-img .bg-shadow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+#main-img .title {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+#main-img .subtitle {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+#main-img .container {
+    position: relative;
+}
+#main-img .button{
+    margin-top: 100px;
+}
+.button {
+    line-height: 3em;
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.button.sm{
+    font-size: 1.1em;
+    line-height: 2.2em;
+}
+.descr-block {
+    padding: 100px 0;
+    position: relative;
+}
+.descr-block .bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    content: "";
+    display: block;
+    height: 100%;
+    background: url(https://meduza.io/image/attachments/images/002/184/867/large/WClyX3uh4CPFa3YOv8sdJA.jpg) no-repeat;
+    background-size: cover;
+}
+.descr-item{
+    margin-bottom: 100px;
+}
+
+.descr-item .line{
+    content: "";
+    height: 1px;
+    width: 30px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.descr-item .name{
+    font-size: 50px;
+    line-height: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.descr-item .descr{
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.descr-item .button{
+    margin-top: 40px;
+}
+#triangle{
+    position: absolute;
+    bottom: -60px;
+    width: 50%;
+    height: 60px;
+}
+
+.video-block{
+    background-color: #000;
+    z-index: 2;
+}
+.video-block iframe{
+    display: block;
+    margin: 0 auto;
+    width: 100% !important;
+    height: 100vh;
+    z-index: 2;
+
+}
+
+.btn-next{
+    border: 1px solid #fff;
+}
+.btn-next {
+    position: fixed;
+    left: 50%;
+    bottom: 1.5625em;
+    margin-left: -1.34375em;
+    display: block;
+    width: 2.6875em;
+    height: 2.6875em;
+    border-radius: 2.75em;
+    z-index: 1;
+    transition: background 1s ease,border 1s ease;
+}
+.btn-next:before {
+    content: "";
+    display: block;
+    width: .625em;
+    height: .625em;
+    box-sizing: border-box;
+    border-left: .125em solid #fff;
+    border-bottom: .125em solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: border 1.7s ease;
+    margin-top: -.125em;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}

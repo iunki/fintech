@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700,800,900|PT+Sans+Narrow:700&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:900&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>{name} & Ак Барс Банк</title>
+</head>
+<body>
+
+<div id="main-img" class="parallax-window" data-parallax="scroll" data-image-src="{img1}">
+    <div class="bg-shadow">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <img src="img/logo.png"
+                             alt="" id="logo">
+                    </div>
+                    <div class="col-lg-4 col-lg-push-7">
+                        <ul id="menu">
+                            <li>О проекте</li>
+                            <li>{product}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                {title}
+            </div>
+            <div class="subtitle">
+                {subtitle}
+            </div>
+            <a class="button">Попробовать {product}</a>
+        </div>
+        <a href="#" class="btn-next" style="transform: matrix(1, 0, 0, 1, 0, 0);"></a>
+    </div>
+</div>
+<div class="descr-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="descr-item">
+                    <div class="line"></div>
+                    <div class="name">
+                        {name}
+                    </div>
+                    <div class="descr">
+                        {descr}
+                    </div>
+                    <div class="button sm">Попробовать {product}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg" style="
+    background: url({img2}) no-repeat;
+    background-size: cover;"></div>
+    <img src="img/triangle.png" alt="" id="triangle">
+</div>
+<div class="video-block">
+    <iframe width="1320" height="900" src="https://www.youtube.com/embed/{youtube}?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0" allowfullscreen></iframe>
+</div>
+</body>
+</html>

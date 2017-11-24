@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.files {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+}
+
+.files .selectFiles {
+    z-index: 900;
+    display: block;
+    position: absolute;
+    font-size: 99px;
+    opacity: 0;
+    top:-12px;
+    cursor: pointer;
+
+}
+.files .btn{
+    position: relative;
+    z-index: 800;
+    display: block;
+    cursor: pointer;
+}
+
+::-webkit-file-upload-button { cursor:pointer; }
